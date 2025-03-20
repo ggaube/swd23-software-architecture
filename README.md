@@ -7,4 +7,6 @@
 # Lab2: REST Database Backend Implementation 
 #### Task 1 Atlas MongoDB for REST Application
 #### Task 2: Bottom-up design approach 
+#### Task 3: Query Annotations (optional)
+#### Task 4: Monolith to Microservice Migration with Inter-Service Communication 
 
