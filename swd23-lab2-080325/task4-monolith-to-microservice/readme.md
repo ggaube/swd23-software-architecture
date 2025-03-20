@@ -34,26 +34,6 @@ with each other via REST APIs.
 * OrderService: Handles order-related operations.
 * ProductService: Handles product-related operations.
 
-**This is the structure of each Microservice:**
-user-service/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           ├── userservice/
-│   │   │           │   ├── UserServiceApplication.java
-│   │   │           │   ├── controller/
-│   │   │           │   │   └── UserController.java
-│   │   │           │   ├── service/
-│   │   │           │   │   └── UserService.java
-│   │   │           │   └── repository/
-│   │   │           │       └── UserRepository.java
-│   │   └── resources/
-│   │       └── application.properties
-│   └── test/
-└── pom.xml
-
 **Key Principles for Database Splitting**
 * Database per Service:** Each microservice owns its database, and no other service can directly access it.
 * Decentralized Data Management:** Each service manages its data independently.
